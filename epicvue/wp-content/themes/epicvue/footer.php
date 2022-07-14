@@ -8,7 +8,7 @@
 $inverted_logo = get_field('inverted_logo', 'option');
 ?>
 <footer class="footer text-center background-blue d-lg-flex justify-content-between py-20">
-	<div class="container"></div>
+	<div class="container">
 		<a class="text-center" rel="home" href="<?php echo esc_url(home_url('/')); ?>" itemprop="url">
 			<img class="main-logo" src="<?php echo $inverted_logo['url'] ?>" alt="<?php echo $inverted_logo['alt'] ?: 'logo' ?>">
 		</a>
@@ -28,6 +28,7 @@ $inverted_logo = get_field('inverted_logo', 'option');
 			)
 		);
 		?>
+	</div>
 </footer>
 
 <!-- DO NOT REMOVE  -->
