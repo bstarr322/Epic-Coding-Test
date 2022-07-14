@@ -1,0 +1,54 @@
+.locations {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 50px;
+  margin: 70px 0;
+
+  @include media-breakpoint-up(md) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 90px;
+    margin: 85px 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    grid-gap: 190px;
+    margin-top: 140px;
+  }
+}
+
+.location-card {
+  &__title {
+    color: #2A6867;
+    font-size: 20px;
+    letter-spacing: 2.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    border-bottom: 4px solid;
+  }
+
+  &__content * {
+    color: #61A8B9;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.16px;
+  }
+
+  &__image-wrapper {
+    margin-top: 40px;
+  }
+
+  a {
+    display: inline-block;
+    color: #CE5220;
+    font-size: 16px;
+    line-height: 1.75;
+    letter-spacing: 0.16px;
+    text-decoration: underline;
+  }
+
+  &:nth-child(2) a {
+    color: #AAAAAA;
+  }
+}
