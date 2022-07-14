@@ -3,12 +3,14 @@
 $white: #fff;
 $gray: #f8f9fa;
 $black: #000;
-$blue: #127387;
+$blue: #2A6867;
+$blue-200: #61A8B9;
 $gray-300: #E3E3E3;
+$gray-400: #AAAAAA;
 // $indigo:  #6610f2;
 // $purple:  #6f42c1;
 // $pink:    #e83e8c;
-// $red:     #dc3545;
+$red:     #CE5220;
 // $orange:  #fd7e14;
 // $yellow:  #ffc107;
 // $green:   #28a745;
@@ -461,7 +463,7 @@ $border-color:                $gray-300;
 // $input-focus-width:                     $input-btn-focus-width;
 // $input-focus-box-shadow:                $input-btn-focus-box-shadow;
 
-// $input-placeholder-color:               $gray-600;
+$input-placeholder-color:               $black;
 // $input-plaintext-color:                 $body-color;
 
 // $input-height-border:                   $input-border-width * 2;

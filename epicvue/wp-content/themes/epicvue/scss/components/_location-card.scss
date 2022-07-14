@@ -18,7 +18,7 @@
 
 .location-card {
   &__title {
-    color: #2A6867;
+    color: $blue;
     font-size: 20px;
     letter-spacing: 2.8px;
     line-height: 1;
@@ -29,7 +29,7 @@
   }
 
   &__content * {
-    color: #61A8B9;
+    color: $blue-200;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.16px;
@@ -41,7 +41,7 @@
 
   a {
     display: inline-block;
-    color: #CE5220;
+    color: $red;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.16px;
@@ -49,6 +49,6 @@
   }
 
   &:nth-child(2) a {
-    color: #AAAAAA;
+    color: $gray-400;
   }
 }
