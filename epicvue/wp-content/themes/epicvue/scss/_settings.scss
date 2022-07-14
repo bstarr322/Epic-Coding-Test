@@ -51,14 +51,13 @@ $grid-breakpoints: (
 );
 $container-max-widths: (
   sm: 768px,
-  md: 1440px,
-  lg: 1600px,
-  xl: 1800px
+  md: 1024px,
+  lg: 1400px
 );
 $grid-container-padding: (
-  sm: 15px,
+  sm: 30px,
   md: 55px,
-  lg: 40px
+  lg: 140px
 );
 
 // Grid columns
