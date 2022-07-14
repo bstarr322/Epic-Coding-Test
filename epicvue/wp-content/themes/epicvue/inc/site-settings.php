@@ -12,11 +12,11 @@ if( function_exists('acf_add_options_page') ) {
         'redirect'      => false
     ));
 
-    // acf_add_options_sub_page(array(
-    //     'page_title'    => 'Footer Settings',
-    //     'menu_title'    => 'Footer Settings',
-    //     'parent_slug'   => $parent_option['menu_slug']
-    // ));
+    acf_add_options_sub_page(array(
+        'page_title'    => 'Form Settings',
+        'menu_title'    => 'Form Settings',
+        'parent_slug'   => 'site-general-settings'
+    ));
 }
 add_filter('wpcf7_autop_or_not', '__return_false');
 remove_filter ('acf_the_content', 'wpautop');

@@ -40,11 +40,18 @@ video{
     background-position: center;
 }
 
-.btn{
-    padding: 5px 15px;
+.btn {
     border-radius: 20px;
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 10px 60px;
+  
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+        padding: 6px 42px;
+    }
 }
+
 .btn-white{
     border: 1px solid $black;
 }
-

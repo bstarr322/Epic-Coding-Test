@@ -7,6 +7,9 @@ function epicpress_scripts() {
 	$css_version = file_exists($css_path) ? filemtime( $css_path ) : '1';
 	$js_version = file_exists($js_path) ? filemtime( $js_path ) : '1';
 
+	/*------Google Font ----*/
+	wp_enqueue_style( 'google-font', 'https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap', false );
+
 	/**** Owl Carousel Style ****/
 	// wp_enqueue_style( 'owlCarousel2', 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css', array(), '2.3.4', 'all' );
 

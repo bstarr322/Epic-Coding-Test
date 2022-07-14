@@ -1,0 +1,32 @@
+input.form-control {
+  border: none;
+  border-bottom: 1px solid $border-color;
+  border-radius: 0;
+  color: $black;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 0;
+}
+
+textarea.form-control {
+  border-radius: 0;
+  color: $black;
+  font-size: 20px;
+  line-height: 1.5;
+  min-height: 258px;
+  padding: 13px 21px;
+
+  @include media-breakpoint-up(md) {
+    min-height: 160px;
+  }
+}
+
+.form-group {
+  margin-bottom: 35px;
+
+  label {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.167;
+  }
+}
